@@ -1,3 +1,3 @@
-# docker-vnc
+# docker-python
 
-A Docker image that provides Ubuntu, VNC, Xfce4, Firefox, and basic Python support.
+A Docker image based on Ubuntu 18.04 that provides basic Python 2/3 support.

@@ -1,6 +1,6 @@
 # Container Control
 
-CONTAINER=iandennismiller/vnc
+CONTAINER=iandennismiller/python
 
 all: build run
 	@echo ok
