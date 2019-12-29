@@ -19,6 +19,9 @@ RUN apt-get update && \
   apt-get --purge remove -y .\*-doc$ && \
   apt-get clean -y
 
+RUN pip install -U pip
+RUN pip3 install -U pip
+
 ###
 # Add a basic user
 
