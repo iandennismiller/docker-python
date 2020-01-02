@@ -14,6 +14,8 @@ RUN apt-get update && \
     python3-dev \
     python3-pip \
     python3-virtualenv \
+    python3.7 \
+    python3.7-dev \
     virtualenvwrapper \
     && \
   apt-get --purge remove -y .\*-doc$ && \
