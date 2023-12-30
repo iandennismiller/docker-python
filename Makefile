@@ -14,6 +14,9 @@ daemonize:
 build:
 	docker build -t $(CONTAINER):latest .
 
+rebuild:
+	docker build --no-cache -t $(CONTAINER):latest .
+
 push:
 	docker push $(CONTAINER)
 
